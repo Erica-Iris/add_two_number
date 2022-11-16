@@ -1,3 +1,18 @@
-[build-system]
-requires = ["setuptools>=61.0"]
-build-backend = "setuptools.build_meta"
+[project]
+name = "add_two_number"
+version = "0.0.1"
+authors = [
+  { name="1ris", email="ediath462@gmail.com" },
+]
+description = "A small example package to add two number"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/Erica-Iris/add_two_number"
+"Bug Tracker" = "https://github.com/Erica-Iris/add_two_number/issues"
